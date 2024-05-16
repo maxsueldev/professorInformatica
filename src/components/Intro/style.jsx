@@ -36,20 +36,21 @@ const IntroContent = styled.div`
     color: #F5F5F5;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 0;
-    padding: 0 16px;
+    top: 35%;
+    padding: 0 22px;
     
     h1 {
-        font-size: 38px;
-        line-height: 35px;
+        font-size: 64px;
+        line-height: 58px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 24px;
+        margin-top: 14px;
     }
 `;
 
