@@ -6,7 +6,7 @@ function Intro() {
             <VideoWrapper>
             <FadeIn></FadeIn>
                 <VideoIntro autoPlay loop muted>
-                    <source src="../../video/video1.mp4" type="video/mp4" />
+                    <source src="https://maxsuel-informatica.vercel.app/video/videoIntro.mp4" type="video/mp4" />
                 </VideoIntro>
                 <IntroContent>
                 <h1>Maxsuel Fernando</h1>
