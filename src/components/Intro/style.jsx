@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const IntroContainer = styled.div`
+const IntroContainer = styled.section`
     height: 100vh;
 `;
 
@@ -30,7 +30,7 @@ const FadeIn = styled.div`
     background-color: #808080;
 `;
 
-const IntroContent = styled.section`
+const IntroContent = styled.div`
     width: 100%;
     height: 100%;
     color: #F5F5F5;
@@ -41,14 +41,15 @@ const IntroContent = styled.section`
     text-align: center;
     position: absolute;
     top: 0;
+    padding: 0 16px;
     
     h1 {
-        font-size: 32px;
+        font-size: 38px;
         line-height: 35px;
     }
 
     p {
-        font-size: 14px;
+        font-size: 18px;
     }
 `;
 
