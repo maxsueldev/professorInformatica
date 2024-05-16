@@ -27,7 +27,7 @@ const FadeIn = styled.div`
     width: 100%;
     height: 99%;
     opacity: 0.6;
-    background-color: #808080;
+    background-color: #273d50;
 `;
 
 const IntroContent = styled.div`
