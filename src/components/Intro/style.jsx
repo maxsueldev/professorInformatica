@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const IntroContainer = styled.section`
+const IntroContainer = styled.div`
     height: 100vh;
 `;
 
@@ -13,8 +13,8 @@ const VideoWrapper = styled.div`
 
 const VideoIntro = styled.video`
     position: relative;
-    top: -20px;
-    left: -430px;
+    top: -1.25;
+    left: -26.87rem;
     min-width: 100%;
     min-height: 100%;
     // width: 100%;
@@ -41,16 +41,16 @@ const IntroContent = styled.div`
     text-align: center;
     position: absolute;
     top: 35%;
-    padding: 0 22px;
+    padding: 0 1.38rem;
     
     h1 {
-        font-size: 64px;
-        line-height: 58px;
+        font-size: 4rem;
+        line-height: 3.62rem;
     }
 
     p {
-        font-size: 24px;
-        margin-top: 14px;
+        font-size: 1.5rem;
+        margin-top: 0.88rem;
     }
 `;
 

@@ -3,6 +3,9 @@ import { IntroContainer, VideoWrapper, VideoIntro, FadeIn, IntroContent } from '
 function Intro() {
     return (
         <IntroContainer>
+            {/* <HamburgerMenu>
+                
+            </HamburgerMenu> */}
             <VideoWrapper>
                 <VideoIntro autoPlay loop muted>
                     <source src="https://maxsuel-informatica.vercel.app/video/videoIntro.mp4" type="video/mp4" />
