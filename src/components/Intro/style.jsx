@@ -6,14 +6,19 @@ const IntroContainer = styled.div`
 
 const VideoWrapper = styled.div`
     position: relative;
-    max-width: 100vw;
+    // max-width: 100vw;
     max-height: 100vh;
+    overflow: hidden;
 `;
 
 const VideoIntro = styled.video`
+    position: relative;
+    top: -20px;
+    left: -430px;
     min-width: 100%;
     min-height: 100%;
-    width: 100%;
+    // width: 100%;
+    overflow: hidden;
 `;
 
 const FadeIn = styled.div`
