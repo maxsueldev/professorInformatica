@@ -4,14 +4,33 @@ const IntroContainer = styled.div`
     height: 100vh;
 `;
 
+const HamburgerMenu = styled.div`
+    position: absolute;
+    top: 4%;
+    left: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    padding: 1rem;
+    z-index: 2;
+
+    span {
+        display: block;
+        width: 1.4rem;
+        height: 2px;
+        background-color: var(--white-color);
+    }
+`;  
+
 const VideoWrapper = styled.div`
     position: relative;
     // max-width: 100vw;
     max-height: 100vh;
     overflow: hidden;
-`;
-
-const VideoIntro = styled.video`
+    `;
+    
+    const VideoIntro = styled.video`
     position: relative;
     top: -1.25;
     left: -26.87rem;
@@ -27,31 +46,29 @@ const FadeIn = styled.div`
     width: 100%;
     height: 99%;
     opacity: 0.6;
-    background-color: #273d50;
+    background-color: var(--fade-in-color);
 `;
 
 const IntroContent = styled.div`
     width: 100%;
     height: 100%;
-    color: #F5F5F5;
+    color: var(--white-color);
     display: flex;
     flex-direction: column;
     // justify-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 35%;
+    top: 34%;
     padding: 0 1.38rem;
-    
-    h1 {
-        font-size: 4rem;
-        line-height: 3.62rem;
-    }
 
     p {
-        font-size: 1.5rem;
-        margin-top: 0.88rem;
+        font-size: 1.3rem;
+        font-style: italic;
+        line-height: 1.6rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
     }
 `;
 
-export { IntroContainer, VideoWrapper, VideoIntro, FadeIn, IntroContent };
+export { IntroContainer, HamburgerMenu, VideoWrapper, VideoIntro, FadeIn, IntroContent };
