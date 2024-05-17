@@ -4,21 +4,23 @@ const IntroContainer = styled.div`
     height: 100vh;
 `;
 
+const MenuContainer = styled.div``;
+
 const HamburgerMenu = styled.div`
     position: absolute;
     top: 4%;
-    left: 45%;
+    left: 43%;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 5px;
     cursor: pointer;
     padding: 1rem;
     z-index: 2;
 
     span {
         display: block;
-        width: 1.4rem;
-        height: 2px;
+        width: 1.7rem;
+        height: 3px;
         background-color: var(--white-color);
     }
 `;  
@@ -55,11 +57,10 @@ const IntroContent = styled.div`
     color: var(--white-color);
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 34%;
+    top: 36%;
     padding: 0 1.38rem;
 
     p {
@@ -71,4 +72,4 @@ const IntroContent = styled.div`
     }
 `;
 
-export { IntroContainer, HamburgerMenu, VideoWrapper, VideoIntro, FadeIn, IntroContent };
+export { IntroContainer, MenuContainer, HamburgerMenu, VideoWrapper, VideoIntro, FadeIn, IntroContent };

@@ -4,9 +4,9 @@ function ListMenu({ isOpen }) {
     if(isOpen) {
         return (
             <ListMenuUl>
-                <li><a href="#">Test1</a></li>
-                <li><a href="#">Test2</a></li>
-                <li><a href="#">Test3</a></li>  
+                <li><a href="#aboutMe">Sobre mim</a></li>
+                <li><a href="#courses">Cursos</a></li>
+                <li><a href="#contactMe">Contato</a></li>  
             </ListMenuUl>
         );
     }

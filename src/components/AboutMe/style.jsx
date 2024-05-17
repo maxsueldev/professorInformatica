@@ -17,8 +17,6 @@ const MaxsuelImage = styled.img`
     margin-right: 0.6rem;
 `;
 
-const About = styled.p`
-    font-size: 1.3rem;
-`;
+const About = styled.p``;
 
 export { AboutMeContainer, MaxsuelImage, About };
