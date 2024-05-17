@@ -9,11 +9,8 @@ function Intro() {
     const [openMenu, setOpenMenu] = useState(false);
 
     function showMenu() {
-        if(!openMenu) {
-            setOpenMenu(true);
-        } else {
-            setOpenMenu(false);
-        }
+        if(!openMenu) setOpenMenu(true);
+        else setOpenMenu(false);
     }
 
     return (

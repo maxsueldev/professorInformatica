@@ -1,11 +1,17 @@
 import Intro from './components/Intro';
-import Test from './components/Test';
+import AboutMe from './components/AboutMe';
+import Courses from './components/Courses';
+import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Intro />
-      <Test />
+      <AboutMe />
+      <Courses />
+      <ContactMe />
+      <Footer />
     </>
   )
 }
