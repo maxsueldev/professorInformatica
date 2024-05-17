@@ -34,6 +34,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
 a {
   text-decoration: none;
   color: var(--white-color);
@@ -44,5 +50,5 @@ li {
 }
 
 section {
-  padding: 2rem 1rem;
+  padding: 2rem 1.6rem;
 }

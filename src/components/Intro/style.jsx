@@ -7,7 +7,7 @@ const IntroContainer = styled.div`
 const HamburgerMenu = styled.div`
     position: absolute;
     top: 4%;
-    left: 48%;
+    left: 45%;
     display: flex;
     flex-direction: column;
     gap: 4px;
