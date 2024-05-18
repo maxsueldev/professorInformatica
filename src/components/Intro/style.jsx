@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const IntroContainer = styled.div`
-    height: 100vh;
+    // height: 100vh;
 `;
 
 const MenuContainer = styled.div``;

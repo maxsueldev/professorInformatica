@@ -5,6 +5,11 @@ import excelIcon from '../../img/courses/excel.svg';
 import webDesignIcon from '../../img/courses/web-design.svg';
 import javascriptIcon from '../../img/courses/javascript.svg';
 
+import gradeInformatica from '../../pdf/gradeInformatica.pdf';
+import gradeExcel from '../../pdf/gradeExcel.pdf';
+import gradeWebDesign from '../../pdf/gradeWebDesign.pdf';
+import gradeJavaScript from '../../pdf/gradeJavaScript.pdf';
+
 import { CoursesContainer, FlexCourses } from './style';
 
 function Courses() {
@@ -18,14 +23,14 @@ function Courses() {
                     computadores e sistemas de informação para processar, armazenar, transmitir 
                     e manipular dados. Em termos simples, é a ciência e a tecnologia relacionadas 
                     ao processamento de informações por meio de computadores e software."
-                    hrefGrade="" />
+                    hrefGrade={gradeInformatica} />
 
                 <Course name="Excel Básico"
                     courseIcon={excelIcon}
                     description="O Microsoft Excel é um programa capaz de armazenar, organizar e 
                     editar dados em formato de planilhas para a construção de gráficos, tabelas, 
                     análises, entre outras funcionalidades, que vão das básicas até as avançadas."
-                    hrefGrade="" />
+                    hrefGrade={gradeExcel} />
 
                 <Course name="Web Design"
                     courseIcon={webDesignIcon}
@@ -36,7 +41,7 @@ function Courses() {
                     funcionais e fáceis de navegar. O trabalho do web designer envolve a escolha de 
                     layouts, cores, fontes, imagens e outros elementos visuais, garantindo uma 
                     experiência positiva para os usuários que acessam o site."
-                    hrefGrade="" />
+                    hrefGrade={gradeWebDesign} />
 
                 <Course name="JavaScript Básico"
                     courseIcon={javascriptIcon}
@@ -44,7 +49,7 @@ function Courses() {
                     desenvolvimento web. No contexto do front-end, JavaScript é essencial para criar 
                     interatividade em páginas web, permitindo aos desenvolvedores manipular o conteúdo, 
                     responder a eventos do usuário e criar interfaces dinâmicas."
-                    hrefGrade="" />
+                    hrefGrade={gradeJavaScript} />
             </FlexCourses>
         </CoursesContainer>
     );
