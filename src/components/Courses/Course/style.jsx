@@ -22,7 +22,7 @@ const ButtonGrade = styled.a`
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
     background-color: var(--white-color);
     color: var(--purple-color);
     cursor: pointer;

@@ -11,7 +11,7 @@ const ContactMeContainer = styled.section`
 `;
 
 const FormContact = styled.form`
-    width: 18.5rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
@@ -33,6 +33,8 @@ const TextArea = styled.textarea`
 const Button = styled.button`
     background-color: var(--white-color);
     border: none;
+    font-size: 0.9rem;
+    padding: 0.2rem 0;
 `;
 
 export { ContactMeContainer, FormContact, Input, TextArea, Button };

@@ -6,7 +6,7 @@ const PhraseContainer = styled.section`
     text-align: center;
 
     p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 500;
         margin-top: 0.8rem;
     }
