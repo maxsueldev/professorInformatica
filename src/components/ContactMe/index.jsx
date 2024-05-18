@@ -29,7 +29,7 @@ function ContactMe() {
     return (
         <ContactMeContainer id="contactMe" onSubmit={sendMail}>
             <h2>Contato</h2>
-            <p>Tem interesse em aprender ...</p>
+            <p>Tem interesse em fazer algum dos cursos acima? Entra em contato diretamente por maxsuel.dev@gmail.com ou responda o formulário abaixo</p>
             <FormContact>
                 <Input type="email" placeholder='Informe seu email:' onChange={e => setEmail(e.target.value)} value={email} required />
                 <TextArea rows={4} placeholder='Mensagem:' onChange={e => setMessage(e.target.value)} value={message} required ></TextArea>

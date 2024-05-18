@@ -10,6 +10,18 @@ const PhraseContainer = styled.section`
         font-weight: 500;
         margin-top: 0.8rem;
     }
+
+    @media (768px <= width) {
+        p {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (1025px <= width) {
+        p {
+            font-size: 1.8rem;
+        }
+    }
 `;
 
 export { PhraseContainer };

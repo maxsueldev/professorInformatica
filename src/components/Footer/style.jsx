@@ -9,6 +9,14 @@ const FooterContainer = styled.section`
     img {
         width: 2.2rem;
     }
+
+    @media (768px <= width) {
+        padding: 1rem 0;
+
+        img {
+            width: 2.4rem;
+        }
+    }
 `;
 
 export { FooterContainer };

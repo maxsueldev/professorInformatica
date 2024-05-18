@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+const CourseContainer = styled.div`
+    @media (768px <= width) {
+        width: 45%;
+    }
+`;
+
 const CourseIcon = styled.img`
     width: 3.5rem;
     float: left;
@@ -30,4 +36,4 @@ const ButtonGrade = styled.a`
     padding: 0.3rem 0;
 `;
 
-export { CourseIcon, CourseContent, Title, Description, ButtonGrade };
+export { CourseContainer, CourseIcon, CourseContent, Title, Description, ButtonGrade };

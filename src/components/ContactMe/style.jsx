@@ -8,10 +8,16 @@ const ContactMeContainer = styled.section`
     p {
         margin: 0.4rem 0 1.6rem 0;
     }
+
+    @media (768px <= width) {
+        p {
+            margin: 1.2rem 0 2rem 0;
+        }
+    }
 `;
 
 const FormContact = styled.form`
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     gap: 0.4rem;

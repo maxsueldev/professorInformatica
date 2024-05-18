@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 const IntroContainer = styled.div`
     // height: 100vh;
+
+    @media (768px <= width) {
+        width: 100vw;
+    }
 `;
 
 const MenuContainer = styled.div``;
@@ -23,30 +27,39 @@ const HamburgerMenu = styled.div`
         height: 3px;
         background-color: var(--white-color);
     }
+
+    @media (768px <= width) {
+        top: 1%;
+        left: 45%;
+    }
 `;  
 
 const VideoWrapper = styled.div`
     position: relative;
-    // max-width: 100vw;
+    max-width: 100vw;
     max-height: 100vh;
     overflow: hidden;
     `;
     
-    const VideoIntro = styled.video`
+const VideoIntro = styled.video`
     position: relative;
     top: -1.25;
     left: -26.87rem;
     min-width: 100%;
     min-height: 100%;
-    // width: 100%;
     overflow: hidden;
+
+    @media (768px <= width) {
+        width: 100%;
+        left: 0;
+    }
 `;
 
 const FadeIn = styled.div`
     position: absolute;
     top: 0;
     width: 100%;
-    height: 99%;
+    height: 100%;
     opacity: 0.6;
     background-color: var(--fade-in-color);
 `;
@@ -69,6 +82,17 @@ const IntroContent = styled.div`
         line-height: 1.6rem;
         margin-top: 0.6rem;
         margin-bottom: 0.6rem;
+    }
+
+    @media (768px <= width) {
+        top: 42%;    
+    }
+
+    @media (1025px <= width) {
+        p {
+            font-size: 1.5rem;
+            margin-top: 0.9rem;
+        }
     }
 `;
 
