@@ -17,11 +17,19 @@ const ContactMeContainer = styled.section`
 `;
 
 const FormContact = styled.form`
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
     margin: 0 auto;
+
+    @media (768px <= width) {
+        width: 75%;
+    }
+
+    @media (1025px <= width) {
+        width: 55%;
+    }
 `;
 
 const Input = styled.input`
