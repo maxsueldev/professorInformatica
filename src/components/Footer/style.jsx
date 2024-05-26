@@ -17,6 +17,18 @@ const FooterContainer = styled.section`
             width: 2.4rem;
         }
     }
+
+    @media (1025px <= width) {
+        img {
+            width: 2rem;
+        }
+    }
+
+    @media (1281px <= width) {
+        img {
+            width: 3rem;
+        }
+    }
 `;
 
 export { FooterContainer };

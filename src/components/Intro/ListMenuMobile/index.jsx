@@ -1,6 +1,6 @@
 import { ListMenuUl } from './style';
 
-function ListMenu({ isOpen }) {
+function ListMenuMobile({ isOpen }) {
     if(isOpen) {
         return (
             <ListMenuUl>
@@ -12,4 +12,4 @@ function ListMenu({ isOpen }) {
     }
 }
 
-export default ListMenu;
+export default ListMenuMobile;

@@ -6,7 +6,15 @@ const CoursesContainer = styled.section`
     color: var(--white-color);
 
     h2 {
-        margin-bottom: 3.6rem;
+        margin-bottom: 2rem;
+    }
+
+    @media (1025px <= width) {
+        padding: 3.6rem 10rem;
+
+        h2 {
+            margin-bottom: 4rem;
+        }
     }
 `;
 

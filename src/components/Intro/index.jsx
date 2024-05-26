@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
-import ListMenu from './ListMenu';
+import ListMenuMobile from './ListMenuMobile';
+import ListMenuDesktop from './ListMenuDesktop';
 import IconsContent from './IconsContent';
 
 import { IntroContainer, MenuContainer, VideoWrapper, VideoIntro, FadeIn, IntroContent, HamburgerMenu } from './style';
@@ -21,7 +22,8 @@ function Intro() {
                     <span></span>
                     <span></span>
                 </HamburgerMenu>
-                <ListMenu isOpen={openMenu} />
+                <ListMenuMobile isOpen={openMenu} />
+                <ListMenuDesktop />
             </MenuContainer>
             <VideoWrapper>
                 <VideoIntro autoPlay loop muted>

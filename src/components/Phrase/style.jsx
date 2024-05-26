@@ -18,8 +18,18 @@ const PhraseContainer = styled.section`
     }
 
     @media (1025px <= width) {
+        margin: 0 auto;
+        width: 85%;
+
         p {
             font-size: 1.8rem;
+        }
+    }
+
+    @media (1280px <= width) {
+        p {
+            font-size: 2.1rem;
+            margin-top: 1.2rem;
         }
     }
 `;

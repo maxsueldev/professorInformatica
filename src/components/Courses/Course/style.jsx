@@ -34,6 +34,12 @@ const ButtonGrade = styled.a`
     cursor: pointer;
     border-radius: 1rem;
     padding: 0.3rem 0;
+
+    @media (1025px <= width) {
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding: 0.5rem 0;
+    }
 `;
 
 export { CourseContainer, CourseIcon, CourseContent, Title, Description, ButtonGrade };

@@ -23,7 +23,13 @@ const IconsContainer = styled.div`
         gap: 0.8rem;
 
         img {
-            width: 2.75rem;
+            width: 2.2rem;
+        }
+    }
+
+    @media (1280px <= width) {
+        img {
+            width: 3.4rem;
         }
     }
 `;
